@@ -15,7 +15,7 @@ public class Persona {
     //Atributos
     public String Nombre;
     public int Año_Nacimiento;
-    public float Cedula;
+    public int Cedula;
     
     
    //Constructor no parametrizado
@@ -24,13 +24,13 @@ public class Persona {
 
     //Constructos Parametrizado
 
-    public Persona(String Nombre, int Año_Nacimiento, float Cedula) {
+    public Persona(String Nombre, int Año_Nacimiento, int Cedula) {
         this.Nombre = Nombre;
         this.Año_Nacimiento = Año_Nacimiento;
         this.Cedula = Cedula;
     }
-    //setter 
 
+    //setter
     public void setNombre(String Nombre) {
         this.Nombre = Nombre;
     }
@@ -39,11 +39,12 @@ public class Persona {
         this.Año_Nacimiento = Año_Nacimiento;
     }
 
-    
-    public void setCedula(float Cedula) {
+    public void setCedula(int Cedula) {
         this.Cedula = Cedula;
     }
 
+    
+ 
     //getter
 
     public String getNombre() {
@@ -54,9 +55,11 @@ public class Persona {
         return Año_Nacimiento;
     }
 
-    public float getCedula() {
+    public int getCedula() {
         return Cedula;
     }
+
+    
    
     
     

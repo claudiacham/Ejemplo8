@@ -20,7 +20,7 @@ public class Main {
         //Variables
        String Nombre="";
        int Año_Nacimiento=0;
-       float Cedula=0;
+       int Cedula=0;
        int Resultado=0;
        int Año_Actual=2023;
        
@@ -38,7 +38,7 @@ public class Main {
         objPersona.setAño_Nacimiento(Año_Nacimiento);
         
         System.out.println("digite El numero de documento ");
-        Cedula=scan.nextFloat();
+        Cedula=scan.nextInt();
         objPersona.setCedula(Cedula);
         
         
